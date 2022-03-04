@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+.Sketch {
+  width: 100%;
+  height: 100%;
+  .SketchFrame,
+  .SketchLoader {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Loader {
+
+    }
+    .SketchHidden {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .SketchForm {
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    column-gap: 8px;
+    .SketchField {
+      flex-grow: 1;
+    }
+    .SketchButton {
+      background-color: #FF45EDAA;
+      color: white;
+    }
+  }
+}
